@@ -16,12 +16,16 @@ import DiretaPai from './components/comunicacao/DiretaPai';
 import IndiretaPai from './components/comunicacao/IndiretaPai';
 import Input from './components/formulario/Input'
 import Contador from './components/contador/Contador';
+import Mega from './components/mega/Mega';
 
 export default (props) => {
 	return (
 		<div className="App">
 			<h1>Fundamentos React</h1>
 			<div className="Cards">
+			<Card titulo=" #12 - Desafio MegaSena">
+					<Mega range={7}/>
+			</Card>
 			<Card titulo=" #11 - Contador">
 					<Contador numeroInicial={10}></Contador>
 			</Card>
