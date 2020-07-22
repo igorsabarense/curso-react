@@ -22,3 +22,15 @@
 	padding: 10px;
 	flex: 1;
 }
+
+.Card .btn{
+	background-color: #222;
+    color: white;
+    border-radius: 5px;
+    border-color: darksalmon;
+    cursor: pointer;
+	flex-wrap: wrap;
+	padding: 5px -10px ;
+	margin: 10px;
+}
+

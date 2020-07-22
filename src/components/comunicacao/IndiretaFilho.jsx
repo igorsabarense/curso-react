@@ -5,7 +5,7 @@ export default function IndiretaFilho(props) {
 	const gerarNerd = () => Math.random() > 0.5
 	return (
 		<div>
-			<button onClick={(e) => props.onClick('João', gerarIdade(), gerarNerd())}>Fornecer informações</button>
+			<button className="btn" onClick={(e) => props.onClick('João', gerarIdade(), gerarNerd())}>Fornecer informações</button>
 		</div>
 	);
 }
